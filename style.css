@@ -7,17 +7,7 @@ html, body {
 
 }
 
-.my-name {
-    font-size: 40px;
-    color: white;
-    text-align: center;
-}
 
-.my-bio {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-}
 
 .left-top-bt {
     position: fixed;
@@ -53,11 +43,24 @@ html, body {
     }
 }
 
-.background-layer {
-    background-color: black;
-    min-height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
-    color: black;
 
+.my-name {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.my-bio-section {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+
+.middle-button {
+    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
