@@ -56,11 +56,72 @@ html, body {
     text-align: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
 
-.middle-button {
-    height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
 }
+.box {
+    background-color: #348f; 
+    color: white;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+
+}
+
+.box {
+    border-radius: 20px;
+
+}
+
+.redbox {
+    display: grid;
+    background-color: #e7e;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+
+}
+
+.redbox:hover {
+    background-color: #800e0e;
+    color: white;
+    cursor: grab;
+}
+
+.greenbox {
+    display: grid;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.greenbox:hover {
+    background-color: rgb(12, 212, 12);
+    cursor: pointer;
+
+}
+
+.cyanbox {
+    display: grid;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: cyan;
+
+}
+
+.cyanbox:hover {
+    cursor: grabbing;
+    background-color: rgb(160, 25, 140);
+}
+
